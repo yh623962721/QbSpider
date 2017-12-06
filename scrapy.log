@@ -1,0 +1,120 @@
+2017-03-08 15:46:59 [scrapy] INFO: Scrapy 1.1.1 started (bot: QbSpider)
+2017-03-08 15:46:59 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'QbSpider.spiders', 'CONCURRENT_REQUESTS_PER_DOMAIN': 150, 'CONCURRENT_REQUESTS': 150, 'RETRY_ENABLED': False, 'SPIDER_MODULES': ['QbSpider.spiders'], 'REACTOR_THREADPOOL_MAXSIZE': 150, 'RETRY_HTTP_CODES': [500, 502, 503, 504, 408, 404, 403, 400, 405, 407, 437, 307], 'BOT_NAME': 'QbSpider', 'DOWNLOAD_TIMEOUT': 5, 'COOKIES_ENABLED': False, 'RETRY_TIMES': 40, 'TELNETCONSOLE_ENABLED': 0, 'REDIRECT_ENABLED': False, 'LOG_FILE': 'scrapy.log', 'REFERER_ENABLED': False, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'}
+2017-03-08 15:46:59 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-03-08 15:46:59 [root] INFO: Connect redis server success
+2017-03-08 15:46:59 [root] INFO: Connect redis server success
+2017-03-08 15:46:59 [py.warnings] WARNING: C:\Python27\lib\site-packages\scrapy\utils\deprecate.py:156: ScrapyDeprecationWarning: `scrapy.contrib.downloadermiddleware.httpproxy.HttpProxyMiddleware` class is deprecated, use `scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware` instead
+  ScrapyDeprecationWarning)
+
+2017-03-08 15:47:01 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'QbSpider.middleware.RandomUserAgentMiddleware.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'QbSpider.middleware.RandomProxyMiddleware.ProxyMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-03-08 15:47:01 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-03-08 15:47:01 [scrapy] INFO: Enabled item pipelines:
+['QbSpider.dzdppipelines.QbspiderPipeline']
+2017-03-08 15:47:01 [scrapy] INFO: Spider opened
+2017-03-08 15:47:01 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-03-08 15:47:02 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2017-03-08 15:47:02 [scrapy] INFO: Closing spider (shutdown)
+2017-03-08 15:47:02 [root] WARNING: check_dianping_review spider closed
+2017-03-08 15:47:02 [scrapy] INFO: Dumping Scrapy stats:
+{'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2017, 3, 8, 7, 47, 2, 619000),
+ 'log_count/INFO': 10,
+ 'log_count/WARNING': 2,
+ 'start_time': datetime.datetime(2017, 3, 8, 7, 47, 1, 111000)}
+2017-03-08 15:47:02 [scrapy] INFO: Spider closed (shutdown)
+2017-03-08 15:50:08 [scrapy] INFO: Scrapy 1.1.1 started (bot: QbSpider)
+2017-03-08 15:50:08 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'QbSpider.spiders', 'CONCURRENT_REQUESTS_PER_DOMAIN': 150, 'CONCURRENT_REQUESTS': 150, 'RETRY_ENABLED': False, 'SPIDER_MODULES': ['QbSpider.spiders'], 'REACTOR_THREADPOOL_MAXSIZE': 150, 'RETRY_HTTP_CODES': [500, 502, 503, 504, 408, 404, 403, 400, 405, 407, 437, 307], 'BOT_NAME': 'QbSpider', 'DOWNLOAD_TIMEOUT': 5, 'COOKIES_ENABLED': False, 'RETRY_TIMES': 40, 'TELNETCONSOLE_ENABLED': 0, 'REDIRECT_ENABLED': False, 'LOG_FILE': 'scrapy.log', 'REFERER_ENABLED': False, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'}
+2017-03-08 15:50:08 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-03-08 15:50:08 [root] INFO: Connect redis server success
+2017-03-08 15:50:08 [root] INFO: Connect redis server success
+2017-03-08 15:50:08 [py.warnings] WARNING: C:\Python27\lib\site-packages\scrapy\utils\deprecate.py:156: ScrapyDeprecationWarning: `scrapy.contrib.downloadermiddleware.httpproxy.HttpProxyMiddleware` class is deprecated, use `scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware` instead
+  ScrapyDeprecationWarning)
+
+2017-03-08 15:50:09 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'QbSpider.middleware.RandomUserAgentMiddleware.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'QbSpider.middleware.RandomProxyMiddleware.ProxyMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-03-08 15:50:09 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-03-08 15:50:09 [scrapy] INFO: Enabled item pipelines:
+['QbSpider.dzdppipelines.QbspiderPipeline']
+2017-03-08 15:50:09 [scrapy] INFO: Spider opened
+2017-03-08 15:50:09 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-03-08 15:50:15 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2017-03-08 15:50:15 [scrapy] INFO: Closing spider (shutdown)
+2017-03-08 15:50:15 [root] WARNING: check_dianping_review spider closed
+2017-03-08 15:50:15 [scrapy] INFO: Dumping Scrapy stats:
+{'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2017, 3, 8, 7, 50, 15, 935000),
+ 'log_count/INFO': 10,
+ 'log_count/WARNING': 2,
+ 'start_time': datetime.datetime(2017, 3, 8, 7, 50, 9, 432000)}
+2017-03-08 15:50:15 [scrapy] INFO: Spider closed (shutdown)
+2017-03-08 15:54:50 [scrapy] INFO: Scrapy 1.1.1 started (bot: QbSpider)
+2017-03-08 15:54:50 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'QbSpider.spiders', 'CONCURRENT_REQUESTS_PER_DOMAIN': 150, 'CONCURRENT_REQUESTS': 150, 'RETRY_ENABLED': False, 'SPIDER_MODULES': ['QbSpider.spiders'], 'REACTOR_THREADPOOL_MAXSIZE': 150, 'RETRY_HTTP_CODES': [500, 502, 503, 504, 408, 404, 403, 400, 405, 407, 437, 307], 'BOT_NAME': 'QbSpider', 'DOWNLOAD_TIMEOUT': 5, 'COOKIES_ENABLED': False, 'RETRY_TIMES': 40, 'TELNETCONSOLE_ENABLED': 0, 'REDIRECT_ENABLED': False, 'LOG_FILE': 'scrapy.log', 'REFERER_ENABLED': False, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'}
+2017-03-08 15:54:50 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-03-08 15:54:50 [root] INFO: Connect redis server success
+2017-03-08 15:54:50 [root] INFO: Connect redis server success
+2017-03-08 15:54:50 [py.warnings] WARNING: C:\Python27\lib\site-packages\scrapy\utils\deprecate.py:156: ScrapyDeprecationWarning: `scrapy.contrib.downloadermiddleware.httpproxy.HttpProxyMiddleware` class is deprecated, use `scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware` instead
+  ScrapyDeprecationWarning)
+
+2017-03-08 15:54:51 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'QbSpider.middleware.RandomUserAgentMiddleware.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'QbSpider.middleware.RandomProxyMiddleware.ProxyMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-03-08 15:54:51 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-03-08 15:54:51 [scrapy] INFO: Enabled item pipelines:
+['QbSpider.dzdppipelines.QbspiderPipeline']
+2017-03-08 15:54:51 [scrapy] INFO: Spider opened
+2017-03-08 15:54:51 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-03-08 15:55:03 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2017-03-08 15:55:03 [scrapy] INFO: Closing spider (shutdown)
+2017-03-08 15:55:03 [root] WARNING: check_dianping_review spider closed
+2017-03-08 15:55:03 [scrapy] INFO: Dumping Scrapy stats:
+{'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2017, 3, 8, 7, 55, 3, 517000),
+ 'log_count/INFO': 10,
+ 'log_count/WARNING': 2,
+ 'start_time': datetime.datetime(2017, 3, 8, 7, 54, 51, 980000)}
+2017-03-08 15:55:03 [scrapy] INFO: Spider closed (shutdown)
